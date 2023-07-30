@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" sizes="32x32" href=".\assets\favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+  
+        <title>Frontend Mentor | Skilled e-learning landing page</title>
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <img src=".\assets\logo-dark.svg" alt="logo-dark">
+                <button class="dark" type="button" style="color:#FFF">Get Started</button>
+            </div>
+            <div class="wrapper">
+                <div class="wrapper-content">
+                    <h1>Maximize skill, minimize budget</h1>
+                    <p>Our modern courses across a range of in-demand skills will give you the 
+                        knowledge you need to live the life you want.
+                    </p>
+                    <button class="gradient" type="button" style="color:#FFF">Get Started</button>
+                </div>
+                <div class="wrapper-image">
+                    <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset=".\assets\image-hero-desktop.webp,
+                                .\assets\image-hero-desktop@2x.webp,
+                                .\assets\image-hero-desktop.png,
+                                .\assets\image-hero-desktop@2x.png">
+
+                        <source media="(min-width: 768px)"
+                        srcset=".\assets\image-hero-tablet.webp,
+                                .\assets\image-hero-tablet@2x.webp,
+                                .\assets\image-hero-tablet.png,
+                                .\assets\image-hero-tablet@2x.png">
+
+                        <source srcset=".\assets\image-hero-mobile.webp,
+                                .\assets\image-hero-mobile@2x.webp,
+                                .\assets\image-hero-mobile.png,
+                                .\assets\image-hero-mobile@2x.png">
+                        <img src=".\assets\image-hero-mobile.webp" alt="image of the members count">
+                    </picture>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="grid">
+                <div id="first" class="grid-card">
+                    <h2>Check out our most popular courses!</h2>
+                </div>
+                <div class="grid-card">
+                    <img src=".\assets\icon-animation.svg" alt="animation">
+                    <h3>Animation</h3>
+                    <p>Learn the latest animation techniques to create stunning motion 
+                        design and captivate your audience.
+                    </p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="grid-card">
+                    <img src=".\assets\icon-design.svg" alt="design">
+                    <h3>Design</h3>
+                    <p>Create beautiful, usable interfaces to help shape the future of 
+                       how the web looks.
+                    </p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="grid-card">
+                    <img src=".\assets\icon-photography.svg" alt="photography">
+                    <h3>Photography</h3>
+                    <p>Explore critical fundamentals like lighting, composition, and focus 
+                        to capture exceptional photos.
+                    </p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="grid-card">
+                    <img src=".\assets\icon-crypto.svg" alt="crypto">
+                    <h3>Crypto</h3>
+                    <p>All you need to know to get started investing in crypto. Go from beginner 
+                        to advanced with this 54 hour course..
+                    </p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="grid-card">
+                    <img src=".\assets\icon-business.svg" alt="business">
+                    <h3>Business</h3>
+                    <p>A step-by-step playbook to help you start, scale, and sustain your business 
+                        without outside investment.
+                    </p>
+                    <a href="#">Get Started</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <img src=".\assets\logo-light.svg" alt="logo-light">
+            <button class="light" type="button" style="color:#FFF">Get Started</button>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap');
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto; 
+    background-color: var(--ffffff, #FFF); 
+    margin-top: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 1.6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.8rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.8rem;
+}
+
+.wrapper-content {
+    margin-top: 252px;
+    margin-left: 165px;
+    margin-right: 249.26px;
+}
+
+.wrapper-content h1 {
+    color: var(--13183-f, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;    
+    margin-bottom: 2.6rem;
+    max-width: 35rem;
+}
+
+.wrapper-content p {
+    width: 445px;
+    color: var(--83869-a, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 40px;
+}
+
+.wrapper-image {
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.wrapper-image img {
+    max-width: 100%;
+    height: auto;
+    position:relative;
+    top: 10px;
+    right: 10px;
+}
+
+.grid {
+    padding: 0 1.6rem 8rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1110px;
+    height: 748px;  
+    row-gap: 4rem;
+    margin: 226px 140px 165px 165px;
+}
+
+.grid-card {
+    width: 350px;
+    height: 322px; 
+    padding: 24px;
+    border-radius: 15px;
+    background: var(--ffffff, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+#first {
+    background: var(--gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+
+}
+
+#first h2 {
+    width: 286px; 
+    color: var(--ffffff, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off; 
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    word-wrap: break-word;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+
+
+a {
+    color: var(--f-74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-decoration: none;
+}
+
+button {
+    width: 167px;
+    height: 56px; 
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    color:(#FFF);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+.dark {
+    border-radius: 28px;
+    background: var(--13183-f, #13183F);
+    margin-top: 38px;
+    margin-right: 196px;
+}
+
+.gradient {
+    border-radius: 31.5px;
+    background: var(--gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color:(#FFF);
+}
+
+.light {
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    margin-right: 165px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background: var(--13183-f, #13183F);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+img {
+    margin-left: 165.79px;
+}
